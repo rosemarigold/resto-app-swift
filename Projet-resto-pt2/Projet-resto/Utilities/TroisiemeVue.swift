@@ -163,7 +163,7 @@ struct TroisiemeVue: View {
                                     Text("Commander!!")
                                         .foregroundColor(.black)
                                         .font(.system(size: 35))
-                                ).offset(y:-240)
+                                )
                         } //confirmation alert
                         .alert(isPresented: $presentAlert, content: {
                             Alert(title: Text("C'est envoyé."), message: Text("La commande a été créée avec succès."), dismissButton: .default(Text("Retour")){  dismiss() })
